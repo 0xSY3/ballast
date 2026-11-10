@@ -1,0 +1,34 @@
+{
+  "name": "Demo treasury",
+  "note": "Illustrative positions for the dry run, not real holdings. exposureUsd is spot exposure (positive long, negative short); currentHedgeUsd is the perp hedge notional already held against it. Market ids resolved from the Injective mainnet LCD (exchange v2, status Active) on 2026-11-10.",
+  "positions": [
+    {
+      "asset": "BTC",
+      "label": "Treasury BTC",
+      "exposureUsd": "400000",
+      "currentHedgeUsd": "0",
+      "market": { "ticker": "BTC/USDC PERP", "marketId": "0x0ee7ca44147bab6ec81ac293b5fe7915488e612af59964b2d663d6008d861dee" }
+    },
+    {
+      "asset": "ETH",
+      "label": "Treasury ETH",
+      "exposureUsd": "250000",
+      "currentHedgeUsd": "0",
+      "market": { "ticker": "ETH/USDC PERP", "marketId": "0xe9c90a90ec75194ba9693f12b58a88a06937599e00c2adbc565a7b1a6ffbe4ed" }
+    },
+    {
+      "asset": "INJ",
+      "label": "Treasury INJ",
+      "exposureUsd": "150000",
+      "currentHedgeUsd": "0",
+      "market": { "ticker": "INJ/USDC PERP", "marketId": "0x790aee464fbbd02cf4476444554c71d1225f7edfe15e6dc7f874c455fd883d31" }
+    },
+    {
+      "asset": "NVDA",
+      "label": "Tokenized NVDA",
+      "exposureUsd": "100000",
+      "currentHedgeUsd": "0",
+      "market": { "ticker": "NVDA/USDC PERP", "marketId": "0xb9d9202c588e860382c96aee096f9655fce339f6b51833a939a37d2437080c17" }
+    }
+  ]
+}

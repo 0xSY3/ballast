@@ -1,0 +1,591 @@
+{
+  "runAt": "2026-11-10T09:30:57.882Z",
+  "mode": "dry-run",
+  "signals": [
+    {
+      "id": "kalshi:KXFEDDECISION-26DEC-H25",
+      "kind": "macro",
+      "source": "kalshi",
+      "subject": "Fed hikes 25 bp at the 9 Dec 2026 FOMC",
+      "metric": "yes_odds",
+      "value": 0.895,
+      "baseline": 0.805,
+      "change": 0.09,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "polymarket:will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636",
+      "kind": "macro",
+      "source": "polymarket",
+      "subject": "Fed hikes 25 bp at the 9 Dec 2026 FOMC",
+      "metric": "yes_odds",
+      "value": 0.885,
+      "baseline": 0.795,
+      "change": 0.09,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "kalshi:KXCPIYOY-26NOV-T3.7",
+      "kind": "macro",
+      "source": "kalshi",
+      "subject": "US CPI above 3.7% y/y (November data, out 10 Dec 2026)",
+      "metric": "yes_odds",
+      "value": 0.22,
+      "baseline": 0.22,
+      "change": 0,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "kalshi:KXRECSSNBER-27",
+      "kind": "macro",
+      "source": "kalshi",
+      "subject": "US recession in 2027 (two negative GDP quarters)",
+      "metric": "yes_odds",
+      "value": 0.205,
+      "baseline": 0.205,
+      "change": 0,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "injective:BTC/USDC PERP:oracle_age",
+      "kind": "market",
+      "source": "injective",
+      "subject": "BTC/USDC PERP oracle age",
+      "metric": "oracle_age",
+      "value": 0,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:BTC/USDC PERP:spread",
+      "kind": "market",
+      "source": "injective",
+      "subject": "BTC/USDC PERP bid-ask spread",
+      "metric": "spread",
+      "value": 0.000605,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "injective:BTC/USDC PERP:basis",
+      "kind": "market",
+      "source": "injective",
+      "subject": "BTC/USDC PERP perp vs oracle",
+      "metric": "basis",
+      "value": 0.000271,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:BTC/USDC PERP:funding_rate",
+      "kind": "market",
+      "source": "injective",
+      "subject": "BTC/USDC PERP funding rate",
+      "metric": "funding_rate",
+      "value": 0.0000018527508948,
+      "baseline": 0.000002088,
+      "change": -0.02,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:BTC/USDC PERP:depth",
+      "kind": "market",
+      "source": "injective",
+      "subject": "BTC/USDC PERP bid depth within 1% of mid",
+      "metric": "depth",
+      "value": 1145639,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "injective:ETH/USDC PERP:oracle_age",
+      "kind": "market",
+      "source": "injective",
+      "subject": "ETH/USDC PERP oracle age",
+      "metric": "oracle_age",
+      "value": 1.9,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:ETH/USDC PERP:spread",
+      "kind": "market",
+      "source": "injective",
+      "subject": "ETH/USDC PERP bid-ask spread",
+      "metric": "spread",
+      "value": 0.001093,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "injective:ETH/USDC PERP:basis",
+      "kind": "market",
+      "source": "injective",
+      "subject": "ETH/USDC PERP perp vs oracle",
+      "metric": "basis",
+      "value": 0.000351,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:ETH/USDC PERP:funding_rate",
+      "kind": "market",
+      "source": "injective",
+      "subject": "ETH/USDC PERP funding rate",
+      "metric": "funding_rate",
+      "value": 0.0000095473392639,
+      "baseline": -0.0000015814,
+      "change": 0.74,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:ETH/USDC PERP:depth",
+      "kind": "market",
+      "source": "injective",
+      "subject": "ETH/USDC PERP bid depth within 1% of mid",
+      "metric": "depth",
+      "value": 610243,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "injective:INJ/USDC PERP:oracle_age",
+      "kind": "market",
+      "source": "injective",
+      "subject": "INJ/USDC PERP oracle age",
+      "metric": "oracle_age",
+      "value": 1.9,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:INJ/USDC PERP:spread",
+      "kind": "market",
+      "source": "injective",
+      "subject": "INJ/USDC PERP bid-ask spread",
+      "metric": "spread",
+      "value": 0.003144,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "injective:INJ/USDC PERP:basis",
+      "kind": "market",
+      "source": "injective",
+      "subject": "INJ/USDC PERP perp vs oracle",
+      "metric": "basis",
+      "value": 0.00056,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:INJ/USDC PERP:funding_rate",
+      "kind": "market",
+      "source": "injective",
+      "subject": "INJ/USDC PERP funding rate",
+      "metric": "funding_rate",
+      "value": 0.0000094235783946,
+      "baseline": 0.0000631351,
+      "change": -1.32,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:INJ/USDC PERP:depth",
+      "kind": "market",
+      "source": "injective",
+      "subject": "INJ/USDC PERP bid depth within 1% of mid",
+      "metric": "depth",
+      "value": 205608,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "injective:NVDA/USDC PERP:oracle_age",
+      "kind": "market",
+      "source": "injective",
+      "subject": "NVDA/USDC PERP oracle age",
+      "metric": "oracle_age",
+      "value": 1.9,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:NVDA/USDC PERP:spread",
+      "kind": "market",
+      "source": "injective",
+      "subject": "NVDA/USDC PERP bid-ask spread",
+      "metric": "spread",
+      "value": 0.004763,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    },
+    {
+      "id": "injective:NVDA/USDC PERP:basis",
+      "kind": "market",
+      "source": "injective",
+      "subject": "NVDA/USDC PERP perp vs oracle",
+      "metric": "basis",
+      "value": 0.002114,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:NVDA/USDC PERP:funding_rate",
+      "kind": "market",
+      "source": "injective",
+      "subject": "NVDA/USDC PERP funding rate",
+      "metric": "funding_rate",
+      "value": 0.0000275,
+      "baseline": 0.0000155823,
+      "change": 0.56,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": null
+      }
+    },
+    {
+      "id": "injective:NVDA/USDC PERP:depth",
+      "kind": "market",
+      "source": "injective",
+      "subject": "NVDA/USDC PERP bid depth within 1% of mid",
+      "metric": "depth",
+      "value": 47671,
+      "baseline": null,
+      "change": null,
+      "observedAt": "2026-11-10T09:30:57.882Z",
+      "quality": {
+        "fresh": true,
+        "twoSided": true
+      }
+    }
+  ],
+  "vectors": [
+    {
+      "id": "978ceacb0db9156a095a5fbdca0c63ec7d65aa2c384a5516209c90ab6f769d09",
+      "createdAt": "2026-11-10T09:30:57.882Z",
+      "market": {
+        "ticker": "BTC/USDC PERP",
+        "marketId": "0x0ee7ca44147bab6ec81ac293b5fe7915488e612af59964b2d663d6008d861dee"
+      },
+      "hedgeSide": "sell",
+      "intensity": 0.45,
+      "confidence": 1,
+      "ttlSeconds": 600,
+      "drivers": [
+        {
+          "signalId": "kalshi:KXFEDDECISION-26DEC-H25",
+          "strength": 0.45,
+          "note": "Fed hikes 25 bp at the 9 Dec 2026 FOMC: odds 80.5% to 89.5% in 60 min (Kalshi and Polymarket agree)"
+        }
+      ]
+    },
+    {
+      "id": "73e9eeb50d19ebf9652cf5a964f19f401bc8843dcbca0109efc6852a6487cf8a",
+      "createdAt": "2026-11-10T09:30:57.882Z",
+      "market": {
+        "ticker": "ETH/USDC PERP",
+        "marketId": "0xe9c90a90ec75194ba9693f12b58a88a06937599e00c2adbc565a7b1a6ffbe4ed"
+      },
+      "hedgeSide": "sell",
+      "intensity": 0.45,
+      "confidence": 1,
+      "ttlSeconds": 600,
+      "drivers": [
+        {
+          "signalId": "kalshi:KXFEDDECISION-26DEC-H25",
+          "strength": 0.45,
+          "note": "Fed hikes 25 bp at the 9 Dec 2026 FOMC: odds 80.5% to 89.5% in 60 min (Kalshi and Polymarket agree)"
+        }
+      ]
+    },
+    {
+      "id": "abd7b4f1399a578b0dafef51194317d439bb16a3d61db389ba7195ccc7337ac8",
+      "createdAt": "2026-11-10T09:30:57.882Z",
+      "market": {
+        "ticker": "INJ/USDC PERP",
+        "marketId": "0x790aee464fbbd02cf4476444554c71d1225f7edfe15e6dc7f874c455fd883d31"
+      },
+      "hedgeSide": "sell",
+      "intensity": 0.6229,
+      "confidence": 1,
+      "ttlSeconds": 600,
+      "drivers": [
+        {
+          "signalId": "kalshi:KXFEDDECISION-26DEC-H25",
+          "strength": 0.45,
+          "note": "Fed hikes 25 bp at the 9 Dec 2026 FOMC: odds 80.5% to 89.5% in 60 min (Kalshi and Polymarket agree)"
+        },
+        {
+          "signalId": "injective:INJ/USDC PERP:spread",
+          "strength": 0.3144,
+          "note": "INJ/USDC PERP spread widened to 31.44 bps"
+        }
+      ]
+    },
+    {
+      "id": "7fce9e88bb6dad8c8cefabc87dbd98572c464dfa46b5b90778435a70ed19dd35",
+      "createdAt": "2026-11-10T09:30:57.882Z",
+      "market": {
+        "ticker": "NVDA/USDC PERP",
+        "marketId": "0xb9d9202c588e860382c96aee096f9655fce339f6b51833a939a37d2437080c17"
+      },
+      "hedgeSide": "sell",
+      "intensity": 0.712,
+      "confidence": 1,
+      "ttlSeconds": 600,
+      "drivers": [
+        {
+          "signalId": "injective:NVDA/USDC PERP:spread",
+          "strength": 0.4763,
+          "note": "NVDA/USDC PERP spread widened to 47.63 bps"
+        },
+        {
+          "signalId": "kalshi:KXFEDDECISION-26DEC-H25",
+          "strength": 0.45,
+          "note": "Fed hikes 25 bp at the 9 Dec 2026 FOMC: odds 80.5% to 89.5% in 60 min (Kalshi and Polymarket agree)"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "vectorId": "978ceacb0db9156a095a5fbdca0c63ec7d65aa2c384a5516209c90ab6f769d09",
+      "marketId": "0x0ee7ca44147bab6ec81ac293b5fe7915488e612af59964b2d663d6008d861dee",
+      "ticker": "BTC/USDC PERP",
+      "side": "SELL",
+      "quantity": "0.33601",
+      "worstPrice": "73659",
+      "margin": "12499.992013",
+      "notionalUsd": "24999.98",
+      "limitsApplied": [
+        "cap:max_order_notional"
+      ]
+    },
+    {
+      "vectorId": "73e9eeb50d19ebf9652cf5a964f19f401bc8843dcbca0109efc6852a6487cf8a",
+      "marketId": "0xe9c90a90ec75194ba9693f12b58a88a06937599e00c2adbc565a7b1a6ffbe4ed",
+      "ticker": "ETH/USDC PERP",
+      "side": "SELL",
+      "quantity": "11.8841",
+      "worstPrice": "2082.7",
+      "margin": "12499.993483",
+      "notionalUsd": "24999.98",
+      "limitsApplied": [
+        "cap:max_order_notional"
+      ]
+    },
+    {
+      "vectorId": "abd7b4f1399a578b0dafef51194317d439bb16a3d61db389ba7195ccc7337ac8",
+      "marketId": "0x790aee464fbbd02cf4476444554c71d1225f7edfe15e6dc7f874c455fd883d31",
+      "ticker": "INJ/USDC PERP",
+      "side": "SELL",
+      "quantity": "3143.66",
+      "worstPrice": "7.873",
+      "margin": "12499.978075",
+      "notionalUsd": "24999.95",
+      "limitsApplied": [
+        "cap:max_order_notional"
+      ]
+    },
+    {
+      "vectorId": "7fce9e88bb6dad8c8cefabc87dbd98572c464dfa46b5b90778435a70ed19dd35",
+      "marketId": "0xb9d9202c588e860382c96aee096f9655fce339f6b51833a939a37d2437080c17",
+      "ticker": "NVDA/USDC PERP",
+      "side": "SELL",
+      "quantity": "136.87",
+      "worstPrice": "180.83",
+      "margin": "12499.994925",
+      "notionalUsd": "24999.98",
+      "limitsApplied": [
+        "cap:max_order_notional"
+      ]
+    }
+  ],
+  "payloads": [
+    {
+      "msg": {
+        "@type": "/injective.exchange.v2.MsgCreateDerivativeMarketOrder",
+        "sender": "inj1-dry-run-placeholder-sender",
+        "order": {
+          "marketId": "0x0ee7ca44147bab6ec81ac293b5fe7915488e612af59964b2d663d6008d861dee",
+          "orderInfo": {
+            "subaccountId": "0x-dry-run-placeholder-subaccount",
+            "feeRecipient": "inj1-dry-run-placeholder-sender",
+            "price": "73659000000000000000000",
+            "quantity": "336010000000000000",
+            "cid": "978ceacb0db9156a095a5fbdca0c63ec"
+          },
+          "orderType": 2,
+          "margin": "12499992013000000000000",
+          "triggerPrice": "0",
+          "expirationBlock": "0"
+        }
+      }
+    },
+    {
+      "msg": {
+        "@type": "/injective.exchange.v2.MsgCreateDerivativeMarketOrder",
+        "sender": "inj1-dry-run-placeholder-sender",
+        "order": {
+          "marketId": "0xe9c90a90ec75194ba9693f12b58a88a06937599e00c2adbc565a7b1a6ffbe4ed",
+          "orderInfo": {
+            "subaccountId": "0x-dry-run-placeholder-subaccount",
+            "feeRecipient": "inj1-dry-run-placeholder-sender",
+            "price": "2082700000000000000000",
+            "quantity": "11884100000000000000",
+            "cid": "73e9eeb50d19ebf9652cf5a964f19f40"
+          },
+          "orderType": 2,
+          "margin": "12499993483000000000000",
+          "triggerPrice": "0",
+          "expirationBlock": "0"
+        }
+      }
+    },
+    {
+      "msg": {
+        "@type": "/injective.exchange.v2.MsgCreateDerivativeMarketOrder",
+        "sender": "inj1-dry-run-placeholder-sender",
+        "order": {
+          "marketId": "0x790aee464fbbd02cf4476444554c71d1225f7edfe15e6dc7f874c455fd883d31",
+          "orderInfo": {
+            "subaccountId": "0x-dry-run-placeholder-subaccount",
+            "feeRecipient": "inj1-dry-run-placeholder-sender",
+            "price": "7873000000000000000",
+            "quantity": "3143660000000000000000",
+            "cid": "abd7b4f1399a578b0dafef51194317d4"
+          },
+          "orderType": 2,
+          "margin": "12499978075000000000000",
+          "triggerPrice": "0",
+          "expirationBlock": "0"
+        }
+      }
+    },
+    {
+      "msg": {
+        "@type": "/injective.exchange.v2.MsgCreateDerivativeMarketOrder",
+        "sender": "inj1-dry-run-placeholder-sender",
+        "order": {
+          "marketId": "0xb9d9202c588e860382c96aee096f9655fce339f6b51833a939a37d2437080c17",
+          "orderInfo": {
+            "subaccountId": "0x-dry-run-placeholder-subaccount",
+            "feeRecipient": "inj1-dry-run-placeholder-sender",
+            "price": "180830000000000000000",
+            "quantity": "136870000000000000000",
+            "cid": "7fce9e88bb6dad8c8cefabc87dbd9857"
+          },
+          "orderType": 2,
+          "margin": "12499994925000000000000",
+          "triggerPrice": "0",
+          "expirationBlock": "0"
+        }
+      }
+    }
+  ],
+  "skipped": []
+}

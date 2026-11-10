@@ -1,0 +1,103 @@
+{
+  "note": "Live markets resolved from the Kalshi and Polymarket public APIs on 2026-11-10. Weights are operator settings, not forecasts. When an event lists two legs (the same outcome on two venues), Ballast uses the smaller move so one venue alone cannot trigger a hedge.",
+  "resolvedAt": "2026-11-10T09:10:00Z",
+  "events": [
+    {
+      "id": "fomc-dec-2026",
+      "label": "Fed hikes 25 bp at the 9 Dec 2026 FOMC",
+      "resolvesAt": "2026-12-09T19:00:00Z",
+      "riskOffWhen": "yes_up",
+      "legs": [
+        {
+          "source": "kalshi",
+          "series": "KXFEDDECISION",
+          "ticker": "KXFEDDECISION-26DEC-H25"
+        },
+        {
+          "source": "polymarket",
+          "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636"
+        }
+      ],
+      "affects": [
+        {
+          "asset": "BTC",
+          "weight": 1.0
+        },
+        {
+          "asset": "ETH",
+          "weight": 1.0
+        },
+        {
+          "asset": "INJ",
+          "weight": 1.0
+        },
+        {
+          "asset": "NVDA",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "id": "us-cpi-nov-2026",
+      "label": "US CPI above 3.7% y/y (November data, out 10 Dec 2026)",
+      "resolvesAt": "2026-12-10T13:30:00Z",
+      "riskOffWhen": "yes_up",
+      "legs": [
+        {
+          "source": "kalshi",
+          "series": "KXCPIYOY",
+          "ticker": "KXCPIYOY-26NOV-T3.7"
+        }
+      ],
+      "affects": [
+        {
+          "asset": "BTC",
+          "weight": 0.8
+        },
+        {
+          "asset": "ETH",
+          "weight": 0.8
+        },
+        {
+          "asset": "INJ",
+          "weight": 0.8
+        },
+        {
+          "asset": "NVDA",
+          "weight": 0.8
+        }
+      ]
+    },
+    {
+      "id": "us-recession-2027",
+      "label": "US recession in 2027 (two negative GDP quarters)",
+      "resolvesAt": "2028-01-31T15:00:00Z",
+      "riskOffWhen": "yes_up",
+      "legs": [
+        {
+          "source": "kalshi",
+          "series": "KXRECSSNBER",
+          "ticker": "KXRECSSNBER-27"
+        }
+      ],
+      "affects": [
+        {
+          "asset": "BTC",
+          "weight": 0.6
+        },
+        {
+          "asset": "ETH",
+          "weight": 0.6
+        },
+        {
+          "asset": "INJ",
+          "weight": 0.6
+        },
+        {
+          "asset": "NVDA",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

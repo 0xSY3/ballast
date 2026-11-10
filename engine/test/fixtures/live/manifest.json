@@ -1,0 +1,31 @@
+{
+  "recordedAt": "2026-11-10T09:30:57.882Z",
+  "note": "Public API responses recorded by scripts/record-fixtures.ts; replayed by tests at recordedAt.",
+  "responses": {
+    "https://sentry.lcd.injective.network/injective/exchange/v2/derivative/markets/0xb9d9202c588e860382c96aee096f9655fce339f6b51833a939a37d2437080c17": "sentry_injective_exchange_v2_derivative_markets_0xb9d9202c588e860382c96aee096f96_6b077ef470.json",
+    "https://sentry.lcd.injective.network/injective/exchange/v2/derivative/markets/0xe9c90a90ec75194ba9693f12b58a88a06937599e00c2adbc565a7b1a6ffbe4ed": "sentry_injective_exchange_v2_derivative_markets_0xe9c90a90ec75194ba9693f12b58a88_ad2853b2c4.json",
+    "https://sentry.lcd.injective.network/injective/exchange/v2/derivative/markets/0x790aee464fbbd02cf4476444554c71d1225f7edfe15e6dc7f874c455fd883d31": "sentry_injective_exchange_v2_derivative_markets_0x790aee464fbbd02cf4476444554c71_b0bf5feb92.json",
+    "https://api.elections.kalshi.com/trade-api/v2/series/KXRECSSNBER/markets/KXRECSSNBER-27/candlesticks?period_interval=1": "api_trade-api_v2_series_KXRECSSNBER_markets_KXRECSSNBER-27_candlesticks_59e8155dfd.json",
+    "https://api.elections.kalshi.com/trade-api/v2/series/KXCPIYOY/markets/KXCPIYOY-26NOV-T3.7/candlesticks?period_interval=1": "api_trade-api_v2_series_KXCPIYOY_markets_KXCPIYOY-26NOV-T3.7_candlesticks_85ca81fc62.json",
+    "https://api.elections.kalshi.com/trade-api/v2/markets/KXRECSSNBER-27": "api_trade-api_v2_markets_KXRECSSNBER-27_3a568d0f5b.json",
+    "https://gamma-api.polymarket.com/markets?slug=will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636": "gamma-api_markets_08c3c95c7b.json",
+    "https://api.elections.kalshi.com/trade-api/v2/series/KXFEDDECISION/markets/KXFEDDECISION-26DEC-H25/candlesticks?period_interval=1": "api_trade-api_v2_series_KXFEDDECISION_markets_KXFEDDECISION-26DEC-H25_candlestic_3ba0f5ac57.json",
+    "https://sentry.lcd.injective.network/injective/exchange/v2/derivative/markets/0x0ee7ca44147bab6ec81ac293b5fe7915488e612af59964b2d663d6008d861dee": "sentry_injective_exchange_v2_derivative_markets_0x0ee7ca44147bab6ec81ac293b5fe79_60af3f21f8.json",
+    "https://sentry.lcd.injective.network/injective/oracle/v1beta1/price?base=1314&oracle_type=PythPro&quote=7": "sentry_injective_oracle_v1beta1_price_7f836a340c.json",
+    "https://sentry.lcd.injective.network/injective/exchange/v2/derivative/orderbook/0xb9d9202c588e860382c96aee096f9655fce339f6b51833a939a37d2437080c17?limit=50": "sentry_injective_exchange_v2_derivative_orderbook_0xb9d9202c588e860382c96aee096f_00261f04d3.json",
+    "https://sentry.lcd.injective.network/injective/exchange/v2/derivative/orderbook/0x790aee464fbbd02cf4476444554c71d1225f7edfe15e6dc7f874c455fd883d31?limit=50": "sentry_injective_exchange_v2_derivative_orderbook_0x790aee464fbbd02cf4476444554c_158d6d456d.json",
+    "https://sentry.lcd.injective.network/injective/exchange/v2/derivative/orderbook/0x0ee7ca44147bab6ec81ac293b5fe7915488e612af59964b2d663d6008d861dee?limit=50": "sentry_injective_exchange_v2_derivative_orderbook_0x0ee7ca44147bab6ec81ac293b5fe_a67e52a1d3.json",
+    "https://api.elections.kalshi.com/trade-api/v2/markets/KXCPIYOY-26NOV-T3.7": "api_trade-api_v2_markets_KXCPIYOY-26NOV-T3.7_7cbf8eb4d3.json",
+    "https://sentry.lcd.injective.network/injective/exchange/v2/derivative/orderbook/0xe9c90a90ec75194ba9693f12b58a88a06937599e00c2adbc565a7b1a6ffbe4ed?limit=50": "sentry_injective_exchange_v2_derivative_orderbook_0xe9c90a90ec75194ba9693f12b58a_58de1cd839.json",
+    "https://sentry.exchange.grpc-web.injective.network/api/exchange/derivative/v1/fundingRates?limit=200&marketId=0xb9d9202c588e860382c96aee096f9655fce339f6b51833a939a37d2437080c17": "sentry_api_exchange_derivative_v1_fundingRates_db05a18a0e.json",
+    "https://clob.polymarket.com/book?token_id=111662129652828266889360374468657435151479595863413519836161861837506140152890": "clob_book_721601adcc.json",
+    "https://sentry.lcd.injective.network/injective/oracle/v1beta1/price?base=0x000362205e10b3a147d02792eccee483dca6c7b44ecce7012cb8c6e0b68b3ae9&oracle_type=ChainlinkDataStreams&quote=0x00038f83323b6b08116d1614cf33a9bd71ab5e0abf0c9f1b783a74a43e7bd992": "sentry_injective_oracle_v1beta1_price_ae7dd9f59c.json",
+    "https://sentry.lcd.injective.network/injective/oracle/v1beta1/price?base=0x000344d7a7d81f051ee273a63f94f8bef7d44ca89aa03e0c5bf4d085df19adb6&oracle_type=ChainlinkDataStreams&quote=0x00038f83323b6b08116d1614cf33a9bd71ab5e0abf0c9f1b783a74a43e7bd992": "sentry_injective_oracle_v1beta1_price_835bfdf1dd.json",
+    "https://sentry.exchange.grpc-web.injective.network/api/exchange/derivative/v1/fundingRates?limit=200&marketId=0xe9c90a90ec75194ba9693f12b58a88a06937599e00c2adbc565a7b1a6ffbe4ed": "sentry_api_exchange_derivative_v1_fundingRates_17f1615050.json",
+    "https://sentry.lcd.injective.network/injective/oracle/v1beta1/price?base=0x00039d9e45394f473ab1f050a1b963e6b05351e52d71e507509ada0c95ed75b8&oracle_type=ChainlinkDataStreams&quote=0x00038f83323b6b08116d1614cf33a9bd71ab5e0abf0c9f1b783a74a43e7bd992": "sentry_injective_oracle_v1beta1_price_e694001af0.json",
+    "https://sentry.exchange.grpc-web.injective.network/api/exchange/derivative/v1/fundingRates?limit=200&marketId=0x790aee464fbbd02cf4476444554c71d1225f7edfe15e6dc7f874c455fd883d31": "sentry_api_exchange_derivative_v1_fundingRates_8e85884f54.json",
+    "https://clob.polymarket.com/prices-history?fidelity=1&market=111662129652828266889360374468657435151479595863413519836161861837506140152890": "clob_prices-history_7cac1bf31a.json",
+    "https://sentry.exchange.grpc-web.injective.network/api/exchange/derivative/v1/fundingRates?limit=200&marketId=0x0ee7ca44147bab6ec81ac293b5fe7915488e612af59964b2d663d6008d861dee": "sentry_api_exchange_derivative_v1_fundingRates_745aa6a88f.json",
+    "https://api.elections.kalshi.com/trade-api/v2/markets/KXFEDDECISION-26DEC-H25": "api_trade-api_v2_markets_KXFEDDECISION-26DEC-H25_bcacbb956f.json"
+  }
+}

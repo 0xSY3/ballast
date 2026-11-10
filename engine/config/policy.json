@@ -1,0 +1,28 @@
+{
+  "note": "Operator settings, not forecasts. Change them to fit the book and its risk limits.",
+  "macro": {
+    "windowMinutes": 60,
+    "thresholdPts": 5,
+    "fullScalePts": 20,
+    "maxQuoteSpreadPts": 10,
+    "maxLastTradeAgeMinutes": 60,
+    "historyLookbackHours": 24
+  },
+  "funding": { "zThreshold": 2.5, "zFullScale": 5, "historyDays": 7, "minSamples": 24 },
+  "basis": { "thresholdPct": 0.4, "fullScalePct": 1.5 },
+  "spread": { "thresholdBps": 25, "fullScaleBps": 100 },
+  "oracle": { "maxAgeSeconds": 120 },
+  "hedge": {
+    "maxHedgeRatio": 0.6,
+    "minOrderUsd": "500",
+    "maxOrderUsd": "25000",
+    "cooldownMinutes": 10,
+    "priceBandBps": 100,
+    "leverage": "2",
+    "minConfidence": 0.5
+  },
+  "confidence": { "singleVenue": 0.8, "oneSided": 0.5 },
+  "vector": { "ttlSeconds": 600 },
+  "watch": { "intervalSeconds": 60 },
+  "network": { "timeoutMs": 10000, "retries": 2, "backoffMs": 500 }
+}

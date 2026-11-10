@@ -1,0 +1,16 @@
+{
+  "name": "ballast-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "once": "bun run src/cli.ts once",
+    "watch": "bun run src/cli.ts watch",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.11",
+    "typescript": "7.0.2"
+  }
+}
