@@ -1,0 +1,11 @@
+node_modules/
+out/
+.env
+.env.*
+!.env.example
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+.vercel/
+*.log
+.DS_Store
