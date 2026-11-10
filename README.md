@@ -4,6 +4,8 @@
 
 > **Status: prototype, in active development.** The engine runs locally in dry-run mode against live public data and writes Injective order payloads. Nothing is signed or sent on-chain yet. Next: a vault contract on Injective EVM testnet and the AI event mapper.
 
+**Site:** https://ballast-injective.vercel.app · **Deck:** https://claude.ai/artifact/NmDxUM1f9xAmpysGapLNty
+
 ## How it works
 
 ```mermaid
